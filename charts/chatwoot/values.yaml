@@ -14,7 +14,7 @@ worker:
 
 services:
   name: chatwoot
-  internlPort: 3000
+  internalPort: 3000
   targetPort: 3000
   type: LoadBalancer
   annotations: {}
